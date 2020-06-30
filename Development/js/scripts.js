@@ -37,3 +37,13 @@ switch(ope) {
       default: console.log( " يوجد خطأ");
 }
 }
+
+let age= parseInt(prompt( "how old are you?"))
+ if (age <=6){
+    alert(" youre in pre-school");} 
+    else if( age <= 10){
+ alert(" youre in primery");}
+    else if( age<= 17){
+ alert(" youre in high school");}
+ else { alert=(" wrong")}
+
